@@ -19,4 +19,8 @@ describe('HelloComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have Hello Angular! title', () => {
+    expect(component.title).toBe('Hello Angular!!');
+  });
 });
