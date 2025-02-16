@@ -25,4 +25,4 @@ jobs:
         run: npm ci
 
       - name: Run Tests in Headless Chrome
-        run: npm test
+        run: npm test -- --watch=false --browsers=ChromeHeadless
