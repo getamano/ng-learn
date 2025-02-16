@@ -29,7 +29,7 @@ module.exports = function (config) {
       reporters: [{ type: "html" }, { type: "text-summary" }],
     },
     reporters: ["progress", "kjhtml"],
-    browsers: ["ChromeHeadless"],
+    browsers: ["Chrome"],
     restartOnFileChange: true,
   });
 };
